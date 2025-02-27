@@ -27,24 +27,25 @@ const HowItHelps = () => {
                     </div>
 
                 </div>
-                <div className='flex flex-col justify-center xl:pr-14'  >
-                    <h1 className='text-3xl font-bold text-blue-950'>
-                        How it Helps people
-                    </h1>
-                    <p className=' text-gray-400 mt-4'>
-                        Lorem ipsum, dolor sit amet consectetur 
-                        adipisicing elit. Aliquam, quis esse illo eum 
-                        reiciendis suscipit?
-                    </p>
-                    <p className='text-sm text-gray-400 mt-4'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        <a href='#' className='text-pink-400'>Learn More</a>
-                    </p>
-                    <button className='w-fit mt-4 border border-gray-200 px-4 py-2 rounded-lg hover:bg-red-400 
-                    hover:text-white transform duration-300'>
-                        Get in Touch
-                    </button>
+                <div>
+                <h1 className="text-3xl font-bold text-darkBlue">
+              How it Helps people
+            </h1>
+            <p className=" text-gray-400 mt-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit
+              esse ab natus.
+            </p>
+            <p className="text-sm text-gray-400 mt-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
+              <a href="#" className="text-primary">
+                Learn More
+              </a>
+            </p>
+            <button className="w-fit mt-4 border border-gray-200 px-4 py-2 rounded-lg hover:bg-primary hover:text-white transform duration-300">
+              Get in Touch
+            </button>
                 </div>
+                
             </div>
         </div>
     </section>
