@@ -1,9 +1,15 @@
 import React from 'react'
 import Logo from '../../assets/logo.png'
+import {motion} from 'framer-motion'
 
 const Navbar = () => {
   return (
-    <header>
+    <motion.header
+    initial={{opacity: 0, y: -100}}
+    animate={{opacity: 1, y: 0}}
+    transition={{duration: 0.5, delay: 0.6}}
+    >
+
         <div className='container mx-auto py-5 flex items-center justify-items-center justify-between'>
             {/* Logo Section */}
             <div>
@@ -27,7 +33,7 @@ const Navbar = () => {
             {/* Button  Section */}
             <button className='border border-gray-500 px-4 py-2 rounded-lg hover:bg-red-400 hover:text-white transform duration-300 '>Get In Touch</button>
         </div>
-    </header>
+    </motion.header>
   )
 }
 
